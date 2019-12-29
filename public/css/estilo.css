@@ -1,0 +1,504 @@
+body.login {
+  background-color: #da1400;
+}
+body.login .container {
+  background-color: white;
+  max-width: 500px;
+  margin-top: 100px;
+  border-radius: 4px;
+  padding: 60px 60px 10px 60px;
+  text-align: center;
+}
+body.login .container img {
+  max-width: 300px;
+  max-height: 100px;
+  display: inline-block;
+}
+body.login .container .btn {
+  background-color: #da1400;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+body iframe {
+  width: 100%;
+}
+body .nomargin {
+  margin: 0px;
+}
+body .naranja {
+  color: #da1400;
+}
+body .titulo {
+  color: #da1400;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+body .subrayado {
+  background-color: #da1400;
+  height: 1px;
+  width: 100%;
+}
+body main {
+  padding-bottom: 40px;
+  border-top: 1px solid #DCDCDC;
+}
+header #cabecera {
+  box-shadow: none;
+  background-color: white;
+  color: #8C8C8C;
+  margin-top: 5px;
+  overflow: hidden;
+}
+header #cabecera .datos {
+  height: auto;
+  overflow: hidden;
+  margin-top: 35px;
+}
+header #cabecera .datos table {
+  float: right;
+  width: auto;
+  margin-left: 15px;
+}
+header #cabecera .datos table tbody tr td i {
+  color: #da1400;
+  font-size: 30px;
+  margin-right: 5px;
+}
+header #cabecera .datos table tbody tr .top {
+  vertical-align: top;
+  padding-top: 0px;
+}
+header #cabecera .datos table tbody tr .bottom {
+  vertical-align: bottom;
+  padding-bottom: 0px;
+}
+header #cabecera .brand-logo img {
+  max-height: 120px;
+}
+header #navegador {
+  background-color: white;
+  height: 90px;
+  box-shadow: none;
+}
+header #navegador * {
+  color: #3F3F3F;
+  line-height: 90px;
+}
+header #navegador #nav-mobile {
+  width: 100%;
+}
+header #navegador li {
+  position: relative;
+}
+header #navegador li a {
+  transition: all 0.4s;
+}
+header #navegador li a div {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-color: #da1400;
+  opacity: 0;
+  transition: all 0.4s;
+}
+header #navegador li a i {
+  height: 90px;
+}
+header #navegador li.activo a,
+header #navegador li:hover a {
+  color: #da1400;
+}
+header #navegador li.activo a div,
+header #navegador li:hover a div {
+  opacity: 1;
+}
+.carousel {
+  height: 450px;
+}
+.carousel .carousel-item {
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: table!important;
+}
+.carousel .carousel-item .caption {
+  background-color: rgba(214, 29, 20, 0.8);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: auto;
+  padding: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.carousel .carousel-item .caption * {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+.mercados h4 {
+  color: #da1400;
+}
+.mercados .mercado img {
+  display: inline-block;
+}
+.mercados .mercado button {
+  color: #2B2E7A;
+  margin-top: 15px;
+  padding: 5px 20px 0px 20px;
+  border-radius: 4px;
+}
+.mercados .mercado-libre {
+  background-color: #FFE600;
+  border: 1px solid #FFE600;
+}
+.mercados .mercado-pago {
+  background-color: #009EE3;
+  border: 1px solid #009EE3;
+}
+.banner {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-image: url('../img/banner.jpg');
+  color: white;
+}
+.marcas {
+  background-color: #ECECEC;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.marcas img {
+  margin: auto;
+}
+.empresa {
+  padding: 50px 0px;
+}
+.productos .miga {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.productos .miga p,
+.productos .miga a {
+  color: #595959;
+}
+.productos .menu-lateral {
+  margin-top: 30px;
+}
+.productos .menu-lateral .categoria a {
+  color: #da1400;
+}
+.productos .menu-lateral .categoria a p {
+  border-bottom: 1px solid #93989E;
+  padding-bottom: 5px;
+}
+.productos .menu-lateral .menu-productos {
+  padding-left: 15px;
+}
+.productos .menu-lateral .menu-productos .producto a {
+  color: #333333;
+}
+.productos .menu-lateral .menu-productos .producto a p {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0px;
+}
+.productos .card {
+  text-align: center;
+  box-shadow: none;
+}
+.productos .card .imagen {
+  position: relative;
+}
+.productos .card .imagen:hover .capa {
+  opacity: 1;
+}
+.productos .card .imagen img {
+  max-height: 250px;
+}
+.productos .card .imagen .capa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  background-color: #da1400;
+  transition: opacity 0.4s;
+  opacity: 0;
+}
+.productos .card .imagen .capa label {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  margin-top: -3px;
+}
+.productos .card .titulo {
+  background-color: white;
+  color: #da1400;
+  font-size: 20px;
+  margin-top: 5px;
+  height: 90px;
+}
+.productos .card .titulo * {
+  margin-top: 0px;
+}
+.productos .card .titulo p {
+  margin-bottom: 0px;
+}
+.productos .card .titulo label {
+  color: #B0B0B0;
+  font-size: 18px;
+}
+.productos .detalles h4 {
+  color: #da1400;
+  margin-bottom: 0px;
+}
+.productos .detalles label {
+  font-size: 27px;
+}
+.productos .detalles .linea-inferior {
+  background-color: #B0B0B0;
+  height: 2px;
+  width: 100%;
+}
+.productos .detalles .descripcion {
+  margin-top: 30px;
+  font-size: 17px;
+}
+.productos .detalles table {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.productos .detalles table td,
+.productos .detalles table th {
+  text-align: left;
+  border: 1px solid #B0B0B0;
+}
+.productos .detalles button {
+  background-color: #da1400;
+  border: 1px solid #da1400;
+  color: white;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  float: left;
+  margin-right: 15px;
+}
+.productos .detalles button img {
+  max-width: 90px;
+}
+.productos .detalles .mercado-libre {
+  background-color: #FFE600;
+  border: 1px solid #FFE600;
+  padding-bottom: 0px;
+}
+.productos .detalles .mercado-pago {
+  background-color: #009EE3;
+  border: 1px solid #009EE3;
+  padding-bottom: 0px;
+}
+.productos form input[type=submit] {
+  background-color: white;
+  border: 1px solid #7F7F7F;
+  color: #7F7F7F;
+  padding: 5px 30px;
+  margin: auto;
+  width: 160px;
+  text-align: center;
+  float: right;
+}
+.productos .chica {
+  margin-top: 15px;
+}
+.productos #catalogo {
+  background-color: #da1400;
+  border: 1px solid #da1400;
+  color: white;
+  padding: 10px 40px;
+  font-size: 13px;
+}
+.productos .margen-sup {
+  margin-top: 50px;
+}
+.sucursales {
+  padding-top: 40px;
+}
+.sucursales i {
+  color: #595959;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.sucursales iframe {
+  height: 300px;
+}
+.revendedores {
+  padding-top: 40px;
+}
+.revendedores i {
+  color: #595959;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.revendedores .btn {
+  background-color: #da1400 !important;
+}
+.atencion {
+  padding-top: 40px;
+}
+.atencion i {
+  color: #595959;
+  font-size: 50px;
+  margin-right: 10px;
+}
+.atencion .icono-atencion {
+  width: 20%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+.atencion .icono-atencion .card {
+  box-shadow: none;
+}
+.formas {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.formas .argentina {
+  margin-top: 30px;
+}
+.formas ul {
+  list-style-image: url('../img/bullet.png');
+  list-style-position: all;
+}
+.formas ul li {
+  margin-top: 25px;
+}
+.asesoramiento {
+  background-color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.asesoramiento .sinmargen {
+  margin-bottom: 0px;
+}
+.asesoramiento .btn {
+  background-color: #da1400;
+  border-radius: 0px;
+}
+#contacto {
+  padding-top: 30px;
+}
+#contacto iframe {
+  height: 350px;
+}
+#contacto .aviso {
+  padding: 10px;
+  background-color: #F9F9F9;
+}
+#contacto .aviso p {
+  margin: 0px;
+}
+#contacto label[for=aceptar] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#contacto button {
+  background-color: white;
+  color: #da1400;
+  border: 1px solid #da1400;
+  padding: 5px 40px;
+  font-weight: bold;
+}
+.page-footer {
+  background-color: #303030;
+  padding-top: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.page-footer #logo-footer {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  max-width: 160px;
+}
+.page-footer a {
+  color: white;
+}
+.page-footer h5 {
+  font-size: 18px;
+  color: #da1400;
+}
+.page-footer .material-icons,
+.page-footer .fa {
+  color: #da1400;
+  font-size: 24px;
+}
+.page-footer ul li {
+  width: 50%;
+  float: left;
+  font-size: 17px;
+}
+.page-footer table tr td {
+  padding: 5px;
+}
+.page-footer .footer-copyright {
+  background-color: #272727;
+}
+@media only screen and (max-width: 600px) {
+  #navegador {
+    height: auto!important;
+  }
+  #navegador * {
+    line-height: 48px!important;
+  }
+  #mobile-demo a {
+    line-height: 48px!important;
+  }
+  .brand-logo img {
+    max-height: 48px;
+    height: 48px;
+    max-width: 79px;
+    width:79px;
+  }
+  .carousel-slider {
+    height: 150px!important;
+    min-height: 150px!important;
+    width: 100%!important;
+    min-width: 100%!important;
+  }
+  .carousel-slider .carousel-item {
+    height: 150px!important;
+    min-height: 150px!important;
+    width: 100%!important;
+    min-width: 100%!important;
+  }
+  .icono-atencion {
+    width: 100%!important;
+  }
+  .formas ul {
+    list-style-position: inside;
+  }
+  .productos table {
+    width: 100%!important;
+  }
+}
